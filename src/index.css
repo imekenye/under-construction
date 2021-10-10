@@ -504,7 +504,10 @@ svg.wave4 {
   height: 50%;
   object-fit: contain;
 }
-
+ .under h1 {
+    text-align: center;
+  }
+}
 *
   ##Device
   =
@@ -640,7 +643,7 @@ svg.wave4 {
     font-size: 20px;
   }
   .under h1 {
-    font-size: 40px;
+    font-size: 42px;
   }
 }
 
