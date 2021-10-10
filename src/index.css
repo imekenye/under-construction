@@ -662,6 +662,9 @@ body:after {
     transform: translate(-50%, 0%) rotateZ(360deg);
   }
 }
+html,
 body {
-  overflow: hidden;
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
 }
