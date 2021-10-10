@@ -592,6 +592,23 @@ svg.wave4 {
 
     overflow: hidden;
   }
+  .image {
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    top: 0;
+    right: -30px;
+    z-index: 10;
+  }
+  .logo {
+    width: 100px;
+    height: 100px;
+    background: white;
+    position: absolute;
+    right: -200px;
+    top: -300px;
+    transform: rotate(45deg);
+  }
 }
 
 .logo {
@@ -644,4 +661,7 @@ body:after {
   100% {
     transform: translate(-50%, 0%) rotateZ(360deg);
   }
+}
+body {
+  overflow: hidden;
 }
