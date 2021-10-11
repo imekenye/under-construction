@@ -383,7 +383,7 @@ h1 {
   font-size: 10vw;
   text-transform: uppercase;
   font-weight: bold;
-  white-space: nowrap;
+
   line-height: 100%;
   color: white;
   font-family: sequel, sans-serif;
@@ -504,9 +504,12 @@ svg.wave4 {
   height: 50%;
   object-fit: contain;
 }
- .under h1 {
+.under p {
+  color: white;
+}
+ /* .under h1 {
     text-align: center;
-  }
+  } */
 }
 *
   ##Device
@@ -533,7 +536,7 @@ svg.wave4 {
 @media (min-width: 1024px) and (max-width: 1280px) {
   /* CSS */
   h1 {
-    font-size: 10vw;
+    font-size: 8vw;
   }
   .under {
     width: 90vw;
