@@ -492,10 +492,10 @@ svg.wave4 {
 
 .image {
   position: absolute;
-  height: 200px;
-  width: 200px;
-  top: 0;
-  right: -90px;
+  height: 150px;
+  width: 150px;
+  top: 10px;
+  right: -60px;
   z-index: 10;
 }
 
@@ -567,6 +567,7 @@ svg.wave4 {
   .under h1 {
     font-size: 80px;
   }
+ 
 }
 
 /* 
@@ -621,15 +622,15 @@ svg.wave4 {
   }
   .image {
     position: absolute;
-    height: 150px;
-    width: 150px;
-    top: 0;
-    right: -30px;
+    height: 100px;
+    width: 100px;
+    top: 10px;
+    right: -10px;
     z-index: 10;
   }
   .image img {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
   }
   .logo {
     width: 100px;
@@ -647,6 +648,9 @@ svg.wave4 {
   }
   .under h1 {
     font-size: 42px;
+  }
+  .under .progress{
+    width: 70vw !important;
   }
 }
 
@@ -706,4 +710,45 @@ body {
   overflow-x: hidden;
   height: 100%;
   width: 100%;
+}
+
+.under .progress{
+  position: relative;
+  
+  width: 50vw;
+  height: 30px;
+  background:white;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.under .progress .percentage{
+  text-align: right;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: absolute;
+  top:0;
+  left:0;
+  width: 85%;
+  height: 100%;
+  border-radius: 20px;
+  color: white;
+
+  background: #54CCF1;
+  padding-right: 16px;
+  animation: animate 4s ease-in-out forwards;
+}
+
+@keyframes animate{
+  from{
+    width:0;
+  }
+}
+
+.under .progress .percentage span{
+  
+
+  font-size: 12px;
+  margin-right: 8px;
+  white-space: nowrap;
 }
